@@ -23,6 +23,7 @@ app.use(morgan("dev"));
 // ── CORS — allow the frontend origin ──────────────────────────────────────
 const allowedOrigins = [
   process.env.FRONTEND_URL || "http://localhost:5173",
+  "https://sweetaroma-three.vercel.app/",
   "http://localhost:3000",
   "http://localhost:8080",
   "http://localhost:5173",

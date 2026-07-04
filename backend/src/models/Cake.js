@@ -25,10 +25,20 @@ const cakeSchema = new mongoose.Schema(
       trim: true,
       default: "",
     },
-    // Cloudinary image details
+    // Cloudinary image details — legacy single image (kept for backward compat)
     image: {
       url: { type: String, default: "" },
       publicId: { type: String, default: "" },
+    },
+    // Multiple images support
+    images: {
+      type: [
+        {
+          url: { type: String, required: true },
+          publicId: { type: String, required: true },
+        },
+      ],
+      default: [],
     },
     flavors: {
       type: [String],

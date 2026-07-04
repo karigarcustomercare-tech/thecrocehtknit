@@ -52,6 +52,20 @@ app.get("/api/health", (req, res) => {
   res.json({ success: true, message: "Sweet Aroma API is running", timestamp: new Date() });
 });
 
+// ── Admin key verification ─────────────────────────────────────────────────
+// POST /api/admin/verify  { key: "..." }  → { success: true/false }
+app.post("/api/admin/verify", express.json(), (req, res) => {
+  const { key } = req.body ?? {};
+  const secret = process.env.ADMIN_SECRET_KEY;
+  if (!secret) {
+    return res.status(500).json({ success: false, message: "Admin key not configured on server" });
+  }
+  if (!key || key !== secret) {
+    return res.status(401).json({ success: false, message: "Invalid admin key" });
+  }
+  res.json({ success: true });
+});
+
 // ── Admin API routes ───────────────────────────────────────────────────────
 app.use("/api/cakes", cakeRoutes);
 app.use("/api/gallery", galleryRoutes);

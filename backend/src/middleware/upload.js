@@ -57,6 +57,13 @@ const uploadCakeImage = multer({
   limits,
 });
 
+// Allows up to 10 images for a single cake (field name: "images")
+const uploadCakeImages = multer({
+  storage: createCloudinaryStorage("sweet-aroma/cakes"),
+  fileFilter: imageFilter,
+  limits,
+});
+
 const uploadGalleryImage = multer({
   storage: createCloudinaryStorage("sweet-aroma/gallery"),
   fileFilter: imageFilter,
@@ -87,4 +94,4 @@ function streamToCloudinary(buffer, folder) {
   });
 }
 
-module.exports = { uploadCakeImage, uploadGalleryImage, streamToCloudinary };
+module.exports = { uploadCakeImage, uploadCakeImages, uploadGalleryImage, streamToCloudinary };

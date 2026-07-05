@@ -24,7 +24,7 @@ app.use(morgan("dev"));
 const allowedOrigins = [
   process.env.FRONTEND_URL,
   "https://beadbasket.vercel.app",
-  "https://diariesofhandmade.vercel.app",
+  "https://vinkaari.vercel.app",
   "http://localhost:3000",
   "http://localhost:8080",
   "http://localhost:5173",

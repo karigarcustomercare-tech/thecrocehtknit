@@ -94,7 +94,7 @@ export function Contact() {
                 {
                   icon: MapPin,
                   title: "Based in",
-                  copy: "Pan India , Maharashtra — ships pan-India.",
+                  copy: "Pan India  — ships pan-India.",
                 },
                 {
                   icon: Clock,

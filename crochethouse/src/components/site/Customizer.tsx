@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Instagram, Sparkles, Heart, Star, ArrowRight, Gem, ShoppingBag } from "lucide-react";
 import { Reveal } from "./Reveal";
 
-const INSTA = "https://www.instagram.com/vinkaari_/";
+const INSTA = "https://www.instagram.com/granny_crochet0/";
 
 const highlights = [
   { icon: Gem,      label: "Custom bead designs" },
@@ -36,7 +36,7 @@ export function Customizer() {
               </motion.span>
             </h2>
             <p className="mx-auto mt-4 max-w-lg text-muted-foreground text-base leading-relaxed">
-              Tell Vinkaari your vision — colours, patterns, occasion — and she'll handcraft it
+              Tell Granny Crochet your vision — colours, patterns, occasion — and she'll handcraft it
               exactly the way you dreamed it. 🧶✨
             </p>
           </div>
@@ -84,7 +84,7 @@ export function Customizer() {
                 Let's create your piece together
               </h3>
               <p className="mx-auto mt-3 max-w-sm text-muted-foreground text-sm leading-relaxed">
-                Share your ideas — colours, size, occasion, reference photos — and Vinkaari will
+                Share your ideas — colours, size, occasion, reference photos — and Granny Crochet will
                 come back with a quote within a few hours.
               </p>
 

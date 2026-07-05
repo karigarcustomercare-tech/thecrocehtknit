@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { Menu, X, Instagram, ShoppingBag } from "lucide-react";
 
-const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783270385/vinkari-removebg-preview_ipswjj.png";
+const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783274893/gc-removebg-preview_goum2t.png";
 
-const INSTA = "https://www.instagram.com/vinkaari_/";
+const INSTA = "https://www.instagram.com/granny_crochet0/";
 
 const links = [
   { href: "#home",      label: "Home" },
@@ -70,13 +70,13 @@ export function Navbar() {
             >
               <img
                 src={LOGO}
-                alt="The Vinkaari"
+                alt="The Granny Crochet"
                 className={`object-contain transition-all duration-300 ${scrolled ? "h-20 w-20" : "h-22 w-22"}`}
               />
             </motion.div>
             <div className="leading-tight hidden xs:block">
               <div className="font-display text-xl font-semibold text-foreground group-hover:text-rose transition-colors duration-200">
-                The Vinkaari
+                The Granny Crochet
               </div>
               <div className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">
                 Crochet & Beaded Jewellery
@@ -176,10 +176,10 @@ export function Navbar() {
             >
               <div className="flex items-center justify-between p-5 border-b border-border/40">
                 <div className="flex items-center gap-2.5">
-                  <img src={LOGO} alt="The Vinkaari" className="h-14 w-14 object-contain" />
+                  <img src={LOGO} alt="The Granny Crochet" className="h-14 w-14 object-contain" />
                   <div>
-                    <span className="font-display text-base font-semibold block">The Vinkaari</span>
-                    <span className="text-[9px] uppercase tracking-widest text-muted-foreground">by Vinkaari</span>
+                    <span className="font-display text-base font-semibold block">The Granny Crochet</span>
+                    <span className="text-[9px] uppercase tracking-widest text-muted-foreground">by Granny Crochet</span>
                   </div>
                 </div>
                 <motion.button

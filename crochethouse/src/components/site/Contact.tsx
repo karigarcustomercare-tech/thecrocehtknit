@@ -14,7 +14,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Message sent! Vinkaari will be in touch on WhatsApp soon 💌");
+      toast.success("Message sent! Granny Crochet will be in touch on WhatsApp soon 💌");
       (e.target as HTMLFormElement).reset();
     }, 900);
   };
@@ -123,7 +123,7 @@ export function Contact() {
               {/* Social quick links */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Instagram,     href: "https://www.instagram.com/vinkaari_/", label: "Instagram", sub: "@vinkaari_" },
+                  { icon: Instagram,     href: "https://www.instagram.com/granny_crochet0/", label: "Instagram", sub: "@granny_crochet0" },
                   { icon: MessageCircle, href: WA, label: "WhatsApp", sub: "Fastest replies" },
                 ].map((s) => (
                   <motion.a

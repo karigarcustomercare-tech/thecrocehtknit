@@ -7,7 +7,7 @@ import { GalleryTab } from "@/components/admin/GalleryTab";
 import { CategoriesTab } from "@/components/admin/CategoriesTab";
 import { adminApi } from "@/lib/api";
 
-const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783270385/vinkari-removebg-preview_ipswjj.png";
+const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783274893/gc-removebg-preview_goum2t.png";
 
 export const Route = createFileRoute("/admin/")({
   component: AdminPage,
@@ -58,8 +58,8 @@ function KeyGate({ onUnlock }: { onUnlock: () => void }) {
         className="soft-card w-full max-w-sm p-8 text-center"
       >
         {/* Logo */}
-        <img src={LOGO} alt="The Vinkaari" className="h-20 w-20 object-contain mx-auto mb-2" />
-        <div className="font-display text-2xl font-semibold">The Vinkaari</div>
+        <img src={LOGO} alt="The Granny Crochet" className="h-20 w-20 object-contain mx-auto mb-2" />
+        <div className="font-display text-2xl font-semibold">The Granny Crochet</div>
         <div className="text-[10px] uppercase tracking-widest text-muted-foreground mb-5">
           Admin Panel
         </div>
@@ -132,9 +132,9 @@ function AdminPage() {
       <header className="sticky top-0 z-40 border-b border-border/50 bg-cream/92 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 py-3">
           <div className="flex items-center gap-3">
-            <img src={LOGO} alt="The Vinkaari" className="h-11 w-11 object-contain" />
+            <img src={LOGO} alt="The Granny Crochet" className="h-11 w-11 object-contain" />
             <div>
-              <p className="font-display text-base leading-tight font-semibold">The Vinkaari</p>
+              <p className="font-display text-base leading-tight font-semibold">The Granny Crochet</p>
               <p className="text-[9px] uppercase tracking-widest text-muted-foreground">
                 Admin Panel
               </p>

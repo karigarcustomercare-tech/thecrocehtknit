@@ -11,7 +11,7 @@ const reviews = [
   {
     name: "Rahul M.",   initial: "R",
     rating: 5,
-    text: "Ordered a custom beaded bracelet set for my sister's birthday. Vinkaari made it exactly as I imagined — she was thrilled!",
+    text: "Ordered a custom beaded bracelet set for my sister's birthday. Granny Crochet made it exactly as I imagined — she was thrilled!",
   },
   {
     name: "Aditi K.",   initial: "A",
@@ -31,7 +31,7 @@ const reviews = [
   {
     name: "Kabir T.",   initial: "K",
     rating: 5,
-    text: "Vinkaari is so responsive and the customisation process was seamless. Best handmade jewellery in the city!",
+    text: "Granny Crochet is so responsive and the customisation process was seamless. Best handmade jewellery in the city!",
   },
 ];
 

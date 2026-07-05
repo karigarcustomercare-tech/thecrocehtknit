@@ -24,7 +24,7 @@ app.use(morgan("dev"));
 const allowedOrigins = [
   process.env.FRONTEND_URL,
   "https://beadbasket.vercel.app",
-  "https://vinkaari.vercel.app",
+  "https://Granny Crochet.vercel.app",
   "http://localhost:3000",
   "http://localhost:8080",
   "http://localhost:5173",
@@ -49,7 +49,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
 // ── Health check ───────────────────────────────────────────────────────────
 app.get("/api/health", (req, res) => {
-  res.json({ success: true, message: "The Vinkaari API is running 🧶", timestamp: new Date() });
+  res.json({ success: true, message: "The Granny Crochet API is running 🧶", timestamp: new Date() });
 });
 
 // ── Admin key verification ─────────────────────────────────────────────────
@@ -81,7 +81,7 @@ app.use(errorHandler);
 // ── Start server ───────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`\n🧶  The Vinkaari API running on http://localhost:${PORT}`);
+  console.log(`\n🧶  The Granny Crochet API running on http://localhost:${PORT}`);
   console.log(`📋  Admin endpoints:`);
   console.log(`    GET/POST        /api/cakes`);
   console.log(`    GET/PUT/DELETE  /api/cakes/:id`);

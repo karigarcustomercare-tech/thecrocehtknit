@@ -4,23 +4,23 @@ import { ArrowRight, Star, Sparkles, Heart, ShoppingBag } from "lucide-react";
 
 const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
-const INSTA = "https://www.instagram.com/vinkaari_/";
+const INSTA = "https://www.instagram.com/granny_crochet0/";
 
 const slides = [
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783270296/Screenshot_2026-07-05_at_10.19.56_PM_zzml7t.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783275017/Screenshot_2026-07-05_at_11.39.00_PM_e5g3cr.png",
     tag: "Handmade",
     title: "Crochet Bags & Totes",
     sub: "Hand-knotted · Soft yarn · Custom colours",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783270298/Screenshot_2026-07-05_at_10.20.53_PM_luoevf.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783275019/Screenshot_2026-07-05_at_11.39.56_PM_l5tk07.png",
     tag: "Bestseller",
     title: "Beaded Jewellery",
     sub: "Delicate beads · Personalised designs",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783270296/Screenshot_2026-07-05_at_10.20.22_PM_mojbve.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783275019/Screenshot_2026-07-05_at_11.39.32_PM_a4qtub.png",
     tag: "New Drop",
     title: "Crochet Accessories",
     sub: "Headbands · Keychains · Gift sets",
@@ -159,7 +159,7 @@ export function Hero() {
             transition={{ delay: 0.45, duration: 0.7 }}
             className="mt-5 max-w-lg mx-auto lg:mx-0 text-[1.05rem] text-muted-foreground leading-relaxed"
           >
-            Vinkaari crafts every piece by hand — beaded jewellery, crochet bags &
+            Granny Crochet crafts every piece by hand — beaded jewellery, crochet bags &
             accessories that add gems to your life. ✨
           </motion.p>
 

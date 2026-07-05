@@ -30,7 +30,7 @@ export function Gallery() {
               </h2>
             </div>
             <motion.a
-              href="https://www.instagram.com/vinkaari_/"
+              href="https://www.instagram.com/granny_crochet0/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 text-sm font-semibold text-terra hover:underline"
@@ -120,7 +120,7 @@ export function Gallery() {
         <Reveal delay={0.15}>
           <div className="mt-10 text-center">
             <motion.a
-              href="https://www.instagram.com/vinkaari_/"
+              href="https://www.instagram.com/granny_crochet0/"
               target="_blank"
               rel="noreferrer"
               className="btn-ghost inline-flex"

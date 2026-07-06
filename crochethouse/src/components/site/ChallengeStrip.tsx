@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Instagram, Flame, ChevronLeft, ChevronRight, Lock, ShoppingBag } from "lucide-react";
 import { Reveal } from "./Reveal";
 
-const INSTA = "https://www.instagram.com/Crochet and Knots/";
+const INSTA = "https://www.instagram.com/Totacro/";
 
 // ── Challenge config ─────────────────────────────────────────────────────────
 // Day 1 = July 3, 2026 (today = Day 3 per user)
@@ -167,7 +167,7 @@ export function ChallengeStrip() {
               </motion.span>
             </h2>
             <p className="mx-auto mt-3 max-w-md text-muted-foreground text-sm sm:text-base leading-relaxed">
-              Crochet and Knots is launching one handcrafted piece every single day for 30 days.
+              Totacro is launching one handcrafted piece every single day for 30 days.
               Don't miss your favourite! 🧶✨
             </p>
           </div>
@@ -265,7 +265,7 @@ export function ChallengeStrip() {
                       <p className="text-sm text-muted-foreground font-medium px-6 text-center">
                         Day {viewDay} drop hasn't launched yet — follow{" "}
                         <a href={INSTA} target="_blank" rel="noreferrer" className="text-rose font-bold hover:underline">
-                          @crochet.and.knots
+                          @totacro
                         </a>{" "}
                         to be the first to know!
                       </p>
@@ -357,7 +357,7 @@ export function ChallengeStrip() {
                         DM{" "}
                         <a href={INSTA} target="_blank" rel="noreferrer"
                           className="text-rose font-semibold hover:underline">
-                          @crochet.and.knots
+                          @totacro
                         </a>{" "}
                         on Instagram to place your order 🧶
                       </p>
@@ -376,7 +376,7 @@ export function ChallengeStrip() {
                         Follow{" "}
                         <a href={INSTA} target="_blank" rel="noreferrer"
                           className="text-rose font-bold hover:underline">
-                          @crochet.and.knots
+                          @totacro
                         </a>{" "}
                         to catch every drop 🧶
                       </p>

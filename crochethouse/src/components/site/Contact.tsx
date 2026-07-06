@@ -14,7 +14,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Message sent! Crochet and Knots will be in touch on WhatsApp soon 💌");
+      toast.success("Message sent! Totacro will be in touch on WhatsApp soon 💌");
       (e.target as HTMLFormElement).reset();
     }, 900);
   };
@@ -123,7 +123,7 @@ export function Contact() {
               {/* Social quick links */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Instagram,     href: "https://www.instagram.com/Crochet and Knots/", label: "Instagram", sub: "@crochet.and.knots" },
+                  { icon: Instagram,     href: "https://www.instagram.com/Totacro/", label: "Instagram", sub: "@totacro" },
                   { icon: MessageCircle, href: WA, label: "WhatsApp", sub: "Fastest replies" },
                 ].map((s) => (
                   <motion.a
@@ -146,7 +146,7 @@ export function Contact() {
               <div className="soft-card overflow-hidden flex-1 min-h-[160px]">
                 <iframe
                   title="Pan India map"
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=72.75%2C18.88%2C73.05%2C19.28&layer=mapnik&marker=19.0760,72.8777"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=39.42%2C24.32%2C39.72%2C24.72&layer=mapnik&marker=24.5247,39.5692"
                   className="h-40 w-full border-0"
                   loading="lazy"
                 />
@@ -156,7 +156,7 @@ export function Contact() {
                   </span>
                   <a
                     className="text-sage hover:underline"
-                    href="https://www.openstreetmap.org/?mlat=21.1458&mlon=79.0882#map=12/21.1458/79.0882"
+                    href="https://www.openstreetmap.org/?mlat=24.5247&mlon=39.5692#map=12/24.5247/39.5692"
                     target="_blank"
                     rel="noreferrer"
                   >

@@ -49,7 +49,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
 // ── Health check ───────────────────────────────────────────────────────────
 app.get("/api/health", (req, res) => {
-  res.json({ success: true, message: "The Crochet Chronicles API is running 🧶", timestamp: new Date() });
+  res.json({ success: true, message: "The Sticth Giggles API is running 🧶", timestamp: new Date() });
 });
 
 // ── Admin key verification ─────────────────────────────────────────────────
@@ -81,7 +81,7 @@ app.use(errorHandler);
 // ── Start server ───────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`\n🧶  The Crochet Chronicles API running on http://localhost:${PORT}`);
+  console.log(`\n🧶  The Sticth Giggles API running on http://localhost:${PORT}`);
   console.log(`📋  Admin endpoints:`);
   console.log(`    GET/POST        /api/cakes`);
   console.log(`    GET/PUT/DELETE  /api/cakes/:id`);

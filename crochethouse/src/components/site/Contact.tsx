@@ -14,7 +14,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Message sent! Sticth Giggles will be in touch on WhatsApp soon 💌");
+      toast.success("Message sent! civcivgurumi will be in touch on WhatsApp soon 💌");
       (e.target as HTMLFormElement).reset();
     }, 900);
   };
@@ -123,7 +123,7 @@ export function Contact() {
               {/* Social quick links */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Instagram,     href: "https://www.instagram.com/stitch_giggle/", label: "Instagram", sub: "@stitch_giggle" },
+                  { icon: Instagram,     href: "https://www.instagram.com/civcivgurumi/", label: "Instagram", sub: "@civcivgurumi" },
                   { icon: MessageCircle, href: WA, label: "WhatsApp", sub: "Fastest replies" },
                 ].map((s) => (
                   <motion.a

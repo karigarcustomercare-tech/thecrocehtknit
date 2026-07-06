@@ -5,7 +5,7 @@ import { ShoppingBag, X, Sparkles, SlidersHorizontal, ChevronLeft, ChevronRight,
 import { cakesApi, categoriesApi, type Cake, type CakeImage } from "@/lib/api";
 import { Reveal } from "./Reveal";
 
-const INSTA = "https://www.instagram.com/tee.crochet.23/";
+const INSTA = "https://www.instagram.com/_knitsandknots.in/";
 
 function orderOnInstagram(item: Cake) {
   // Open Instagram DM — deeplink on mobile, profile page on desktop

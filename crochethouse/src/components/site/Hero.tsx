@@ -4,23 +4,23 @@ import { ArrowRight, Star, Sparkles, Heart, ShoppingBag } from "lucide-react";
 
 const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
-const INSTA = "https://www.instagram.com/tee.crochet.23/";
+const INSTA = "https://www.instagram.com/_knitsandknots.in/";
 
 const slides = [
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783334174/imgi_11_731365994_17982387999009500_5985367676134957455_n_llrifb.jpg",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783335451/Screenshot_2026-07-06_at_4.26.39_PM_vjs3ic.png",
     tag: "Handmade",
     title: "Crochet Bags & Totes",
     sub: "Hand-knotted · Soft yarn · Custom colours",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783334215/imgi_15_729716692_17981381409009500_7114378296076494698_n_rmzcmp.jpg",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783335502/Screenshot_2026-07-06_at_4.27.02_PM_jfpigv.png",
     tag: "Bestseller",
     title: "Beaded Jewellery",
     sub: "Delicate beads · Personalised designs",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783334210/imgi_43_684049719_17973785889009500_2567152342999115665_n_vnq5ki.jpg",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783335502/Screenshot_2026-07-06_at_4.27.11_PM_kwtpxn.png",
     tag: "New Drop",
     title: "Crochet Accessories",
     sub: "Headbands · Keychains · Gift sets",
@@ -159,7 +159,7 @@ export function Hero() {
             transition={{ delay: 0.45, duration: 0.7 }}
             className="mt-5 max-w-lg mx-auto lg:mx-0 text-[1.05rem] text-muted-foreground leading-relaxed"
           >
-            tee crochet crafts every piece by hand — beaded jewellery, crochet bags &
+            Knits & Knots crafts every piece by hand — beaded jewellery, crochet bags &
             accessories that add gems to your life. ✨
           </motion.p>
 

@@ -2,8 +2,8 @@ import { Instagram, Mail, Heart, ArrowUp, Phone, ShoppingBag } from "lucide-reac
 import { motion } from "framer-motion";
 import { toast } from "sonner";
 
-const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783334290/tee_rdzvwb.jpg";
-const INSTA = "https://www.instagram.com/tee.crochet.23/";
+const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783335377/kak-removebg-preview_f4xsiw.png";
+const INSTA = "https://www.instagram.com/_knitsandknots.in/";
 
 const colLeft = [
   { href: "#story",     label: "Our Story" },
@@ -41,16 +41,16 @@ export function Footer() {
             whileHover={{ scale: 1.03 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <img src={LOGO} alt="The tee crochet" className="h-28 w-28 object-contain" />
+            <img src={LOGO} alt="The Knits & Knots" className="h-28 w-28 object-contain" />
             <div className="text-center md:text-left leading-tight">
               <div className="font-display text-xl font-semibold group-hover:text-rose transition-colors">
-                tee crochet
+                Knits & Knots
               </div>
               <div className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">
                 Crochet & Beaded Jewellery · Pan India 
               </div>
               <div className="text-[9px] text-muted-foreground mt-0.5">
-                by tee crochet 
+                by Knits & Knots 
               </div>
             </div>
           </motion.a>
@@ -83,7 +83,7 @@ export function Footer() {
                 <Phone size={14} /> +91 87796 32721
               </a>
               <a href="mailto:thebeadbaskets@gmail.com" className="flex items-center gap-2 hover:text-rose transition-colors">
-                <Mail size={14} />tee.crochet.23@gmail.com
+                <Mail size={14} />_knitsandknots.in@gmail.com
               </a>
             </div>
             <form
@@ -118,7 +118,7 @@ export function Footer() {
             <Phone size={13} /> +91 87796 32721
           </a>
           <a href="mailto:thebeadbaskets@gmail.com" className="flex items-center gap-2 hover:text-rose transition-colors">
-            <Mail size={13} /> tee.crochet.23@gmail.com
+            <Mail size={13} /> _knitsandknots.in@gmail.com
           </a>
         </div>
 
@@ -143,7 +143,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-border/40 pt-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
-          <div>© {new Date().getFullYear()} The tee crochet by tee crochet. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} The Knits & Knots by Knits & Knots. All rights reserved.</div>
           <motion.div className="flex items-center gap-1" whileHover={{ scale: 1.04 }}>
             Made with{" "}
             <motion.span

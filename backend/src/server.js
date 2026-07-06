@@ -49,7 +49,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
 // ── Health check ───────────────────────────────────────────────────────────
 app.get("/api/health", (req, res) => {
-  res.json({ success: true, message: "The tee crochet API is running 🧶", timestamp: new Date() });
+  res.json({ success: true, message: "The Knits & Knots API is running 🧶", timestamp: new Date() });
 });
 
 // ── Admin key verification ─────────────────────────────────────────────────
@@ -81,7 +81,7 @@ app.use(errorHandler);
 // ── Start server ───────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`\n🧶  The tee crochet API running on http://localhost:${PORT}`);
+  console.log(`\n🧶  The Knits & Knots API running on http://localhost:${PORT}`);
   console.log(`📋  Admin endpoints:`);
   console.log(`    GET/POST        /api/cakes`);
   console.log(`    GET/PUT/DELETE  /api/cakes/:id`);

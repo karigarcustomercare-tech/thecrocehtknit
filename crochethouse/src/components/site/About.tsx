@@ -106,7 +106,7 @@ export function About() {
                 .
               </h2>
               <p className="mt-5 text-base sm:text-lg text-muted-foreground leading-relaxed">
-                Hi, I'm <strong>Neha</strong>! I started The tee crochet out of a love for crochet
+                Hi, I'm <strong>Neha</strong>! I started The Knits & Knots out of a love for crochet
                 and beaded jewellery. Every piece I make is completely handcrafted — from bags and
                 accessories to jewellery that adds gems to your everyday life. With 1500+ happy
                 orders and counting, I'm grateful for every single one. 🧶✨
@@ -143,14 +143,14 @@ export function About() {
 
               {/* Instagram CTA */}
               <motion.a
-                href="https://www.instagram.com/tee.crochet.23/"
+                href="https://www.instagram.com/_knitsandknots.in/"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-rose hover:text-foreground transition-colors"
                 whileHover={{ x: 4 }}
               >
                 <span className="text-base">📸</span>
-                Follow @tee.crochet.23 for daily drops →
+                Follow @_knitsandknots.in for daily drops →
               </motion.a>
             </div>
           </Reveal>

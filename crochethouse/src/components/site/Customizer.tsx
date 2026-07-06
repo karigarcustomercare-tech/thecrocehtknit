@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Instagram, Sparkles, Heart, Star, ArrowRight, Gem, ShoppingBag } from "lucide-react";
 import { Reveal } from "./Reveal";
 
-const INSTA = "https://www.instagram.com/_crochetcorner.__/";
+const INSTA = "https://www.instagram.com/thecrochetknit/";
 
 const highlights = [
   { icon: Gem,      label: "Custom bead designs" },
@@ -36,7 +36,7 @@ export function Customizer() {
               </motion.span>
             </h2>
             <p className="mx-auto mt-4 max-w-lg text-muted-foreground text-base leading-relaxed">
-              Tell Crochet Corner your vision — colours, patterns, occasion — and she'll handcraft it
+              Tell Crochet Knit your vision — colours, patterns, occasion — and she'll handcraft it
               exactly the way you dreamed it. 🧶✨
             </p>
           </div>
@@ -84,7 +84,7 @@ export function Customizer() {
                 Let's create your piece together
               </h3>
               <p className="mx-auto mt-3 max-w-sm text-muted-foreground text-sm leading-relaxed">
-                Share your ideas — colours, size, occasion, reference photos — and Crochet Corner will
+                Share your ideas — colours, size, occasion, reference photos — and Crochet Knit will
                 come back with a quote within a few hours.
               </p>
 

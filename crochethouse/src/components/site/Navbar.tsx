@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence, useScroll, useMotionValueEvent } from "framer-motion";
 import { Menu, X, Instagram, ShoppingBag } from "lucide-react";
 
-const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783331595/lo-removebg-preview_mfexrl.png";
+const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783334290/tee_rdzvwb.jpg";
 
-const INSTA = "https://www.instagram.com/_lo_crochet/";
+const INSTA = "https://www.instagram.com/tee.crochet.23/";
 
 const links = [
   { href: "#home",      label: "Home" },
@@ -70,13 +70,13 @@ export function Navbar() {
             >
               <img
                 src={LOGO}
-                alt="The Lo Crochet"
+                alt="The tee crochet"
                 className={`object-contain transition-all duration-300 ${scrolled ? "h-20 w-20" : "h-22 w-22"}`}
               />
             </motion.div>
             <div className="leading-tight hidden xs:block">
               <div className="font-display text-xl font-semibold text-foreground group-hover:text-rose transition-colors duration-200">
-                The Lo Crochet
+                The tee crochet
               </div>
               <div className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">
                 Crochet & Beaded Jewellery
@@ -176,10 +176,10 @@ export function Navbar() {
             >
               <div className="flex items-center justify-between p-5 border-b border-border/40">
                 <div className="flex items-center gap-2.5">
-                  <img src={LOGO} alt="The Lo Crochet" className="h-14 w-14 object-contain" />
+                  <img src={LOGO} alt="The tee crochet" className="h-14 w-14 object-contain" />
                   <div>
-                    <span className="font-display text-base font-semibold block">The Lo Crochet</span>
-                    <span className="text-[9px] uppercase tracking-widest text-muted-foreground">by Lo Crochet</span>
+                    <span className="font-display text-base font-semibold block">The tee crochet</span>
+                    <span className="text-[9px] uppercase tracking-widest text-muted-foreground">by tee crochet</span>
                   </div>
                 </div>
                 <motion.button
@@ -241,7 +241,7 @@ export function Navbar() {
                   className="btn-ghost w-full text-sm"
                 >
                   <Instagram size={16} />
-                  Follow @_lo_crochet
+                  Follow @tee.crochet.23
                 </motion.a>
               </div>
             </motion.div>

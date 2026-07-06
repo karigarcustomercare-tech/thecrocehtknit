@@ -4,23 +4,23 @@ import { ArrowRight, Star, Sparkles, Heart, ShoppingBag } from "lucide-react";
 
 const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
-const INSTA = "https://www.instagram.com/_lo_crochet/";
+const INSTA = "https://www.instagram.com/tee.crochet.23/";
 
 const slides = [
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783331827/Screenshot_2026-07-06_at_3.26.16_PM_mry6zn.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783334174/imgi_11_731365994_17982387999009500_5985367676134957455_n_llrifb.jpg",
     tag: "Handmade",
     title: "Crochet Bags & Totes",
     sub: "Hand-knotted · Soft yarn · Custom colours",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783331832/Screenshot_2026-07-06_at_3.25.55_PM_dm8ira.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783334215/imgi_15_729716692_17981381409009500_7114378296076494698_n_rmzcmp.jpg",
     tag: "Bestseller",
     title: "Beaded Jewellery",
     sub: "Delicate beads · Personalised designs",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783331824/Screenshot_2026-07-06_at_3.25.35_PM_oyjbcg.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783334210/imgi_43_684049719_17973785889009500_2567152342999115665_n_vnq5ki.jpg",
     tag: "New Drop",
     title: "Crochet Accessories",
     sub: "Headbands · Keychains · Gift sets",
@@ -159,7 +159,7 @@ export function Hero() {
             transition={{ delay: 0.45, duration: 0.7 }}
             className="mt-5 max-w-lg mx-auto lg:mx-0 text-[1.05rem] text-muted-foreground leading-relaxed"
           >
-            Lo Crochet crafts every piece by hand — beaded jewellery, crochet bags &
+            tee crochet crafts every piece by hand — beaded jewellery, crochet bags &
             accessories that add gems to your life. ✨
           </motion.p>
 

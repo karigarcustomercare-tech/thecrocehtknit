@@ -14,7 +14,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Message sent! civcivgurumi will be in touch on WhatsApp soon 💌");
+      toast.success("Message sent! Crochet and Knots will be in touch on WhatsApp soon 💌");
       (e.target as HTMLFormElement).reset();
     }, 900);
   };
@@ -123,7 +123,7 @@ export function Contact() {
               {/* Social quick links */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Instagram,     href: "https://www.instagram.com/civcivgurumi/", label: "Instagram", sub: "@civcivgurumi" },
+                  { icon: Instagram,     href: "https://www.instagram.com/Crochet and Knots/", label: "Instagram", sub: "@crochet.and.knots" },
                   { icon: MessageCircle, href: WA, label: "WhatsApp", sub: "Fastest replies" },
                 ].map((s) => (
                   <motion.a

@@ -23,7 +23,7 @@ app.use(morgan("dev"));
 // ── CORS — allow the frontend origin ──────────────────────────────────────
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  "https://civcivgurumi.vercel.app",
+  "https://Crochet and Knots.vercel.app",
   "https://locrochet.vercel.app",
   "http://localhost:3000",
   "http://localhost:8080",
@@ -49,7 +49,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
 // ── Health check ───────────────────────────────────────────────────────────
 app.get("/api/health", (req, res) => {
-  res.json({ success: true, message: "The civcivgurumi API is running 🧶", timestamp: new Date() });
+  res.json({ success: true, message: "The Crochet and Knots API is running 🧶", timestamp: new Date() });
 });
 
 // ── Admin key verification ─────────────────────────────────────────────────
@@ -81,7 +81,7 @@ app.use(errorHandler);
 // ── Start server ───────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
-  console.log(`\n🧶  The civcivgurumi API running on http://localhost:${PORT}`);
+  console.log(`\n🧶  The Crochet and Knots API running on http://localhost:${PORT}`);
   console.log(`📋  Admin endpoints:`);
   console.log(`    GET/POST        /api/cakes`);
   console.log(`    GET/PUT/DELETE  /api/cakes/:id`);

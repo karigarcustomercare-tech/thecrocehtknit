@@ -4,23 +4,23 @@ import { ArrowRight, Star, Sparkles, Heart, ShoppingBag } from "lucide-react";
 
 const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
 
-const INSTA = "https://www.instagram.com/civcivgurumi/";
+const INSTA = "https://www.instagram.com/Crochet and Knots/";
 
 const slides = [
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783338734/Screenshot_2026-07-06_at_5.21.37_PM_zdtbl9.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783345554/Screenshot_2026-07-06_at_7.14.08_PM_rsqvwo.png",
     tag: "Handmade",
     title: "Crochet Bags & Totes",
     sub: "Hand-knotted · Soft yarn · Custom colours",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783338735/Screenshot_2026-07-06_at_5.21.56_PM_cl8vwz.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783345555/Screenshot_2026-07-06_at_7.14.22_PM_b6a8ox.png",
     tag: "Bestseller",
     title: "Beaded Jewellery",
     sub: "Delicate beads · Personalised designs",
   },
   {
-    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783338733/Screenshot_2026-07-06_at_5.21.18_PM_ch1gix.png",
+    img: "https://res.cloudinary.com/drvug594q/image/upload/v1783345556/Screenshot_2026-07-06_at_7.14.52_PM_cjck7t.png",
     tag: "New Drop",
     title: "Crochet Accessories",
     sub: "Headbands · Keychains · Gift sets",
@@ -159,7 +159,7 @@ export function Hero() {
             transition={{ delay: 0.45, duration: 0.7 }}
             className="mt-5 max-w-lg mx-auto lg:mx-0 text-[1.05rem] text-muted-foreground leading-relaxed"
           >
-            civcivgurumi crafts every piece by hand — beaded jewellery, crochet bags &
+            Crochet and Knots crafts every piece by hand — beaded jewellery, crochet bags &
             accessories that add gems to your life. ✨
           </motion.p>
 

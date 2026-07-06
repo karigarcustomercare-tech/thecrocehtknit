@@ -33,8 +33,8 @@ const features = [
 const stats = [
   { value: 1500, suffix: "+", label: "Happy customers" },
   { value: 4,   suffix: ".9★", label: "Average rating" },
-  { value: 96, suffix: "+",  label: "Posts & drops" },
-  { value: 1300, suffix: "",   label: "Instagram followers" },
+  { value: 89, suffix: "+",  label: "Posts & drops" },
+  { value: 5500, suffix: "",   label: "Instagram followers" },
 ];
 
 function AnimatedNumber({ target, suffix }: { target: number; suffix: string }) {
@@ -106,7 +106,7 @@ export function About() {
                 .
               </h2>
               <p className="mt-5 text-base sm:text-lg text-muted-foreground leading-relaxed">
-                Hi, I'm <strong>Totacro</strong>! I started The Totacro out of a love for crochet
+                Hi, I'm <strong>Crochet Corner</strong>! I started The Crochet Corner out of a love for crochet
                 and beaded jewellery. Every piece I make is completely handcrafted — from bags and
                 accessories to jewellery that adds gems to your everyday life. With 1500+ happy
                 orders and counting, I'm grateful for every single one. 🧶✨
@@ -143,14 +143,14 @@ export function About() {
 
               {/* Instagram CTA */}
               <motion.a
-                href="https://www.instagram.com/Totacro/"
+                href="https://www.instagram.com/_crochetcorner.__/"
                 target="_blank"
                 rel="noreferrer"
                 className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-rose hover:text-foreground transition-colors"
                 whileHover={{ x: 4 }}
               >
                 <span className="text-base">📸</span>
-                Follow @totacro for daily drops →
+                Follow @ _crochetcorner.__ for daily drops →
               </motion.a>
             </div>
           </Reveal>

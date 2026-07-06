@@ -14,7 +14,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Message sent! Totacro will be in touch on WhatsApp soon 💌");
+      toast.success("Message sent! Crochet Corner will be in touch on WhatsApp soon 💌");
       (e.target as HTMLFormElement).reset();
     }, 900);
   };
@@ -123,7 +123,7 @@ export function Contact() {
               {/* Social quick links */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Instagram,     href: "https://www.instagram.com/Totacro/", label: "Instagram", sub: "@totacro" },
+                  { icon: Instagram,     href: "https://www.instagram.com/_crochetcorner.__/", label: "Instagram", sub: "@ _crochetcorner.__" },
                   { icon: MessageCircle, href: WA, label: "WhatsApp", sub: "Fastest replies" },
                 ].map((s) => (
                   <motion.a
@@ -145,8 +145,8 @@ export function Contact() {
               {/* Map — Nagpur */}
               <div className="soft-card overflow-hidden flex-1 min-h-[160px]">
                 <iframe
-                  title="Pan India map"
-                  src="https://www.openstreetmap.org/export/embed.html?bbox=39.42%2C24.32%2C39.72%2C24.72&layer=mapnik&marker=24.5247,39.5692"
+                  title="Pan Pak map"
+                  src="https://www.openstreetmap.org/export/embed.html?bbox=72.90%2C33.58%2C73.20%2C33.88&layer=mapnik&marker=33.7215,73.0433"
                   className="h-40 w-full border-0"
                   loading="lazy"
                 />

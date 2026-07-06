@@ -11,7 +11,7 @@ const reviews = [
   {
     name: "Rahul M.",   initial: "R",
     rating: 5,
-    text: "Ordered a custom beaded bracelet set for my sister's birthday. Totacro made it exactly as I imagined — she was thrilled!",
+    text: "Ordered a custom beaded bracelet set for my sister's birthday. Crochet Corner made it exactly as I imagined — she was thrilled!",
   },
   {
     name: "Aditi K.",   initial: "A",
@@ -24,14 +24,14 @@ const reviews = [
     text: "Fastest delivery and the crochet keychain looks even better in person. Will definitely order again!",
   },
   {
-    name: "Totacro B.",    initial: "N",
+    name: "Crochet Corner B.",    initial: "N",
     rating: 5,
     text: "Ordered a beaded necklace set — got so many compliments. Everyone wants to know where I got it from!",
   },
   {
     name: "Kabir T.",   initial: "K",
     rating: 5,
-    text: "Totacro is so responsive and the customisation process was seamless. Best handmade jewellery in the city!",
+    text: "Crochet Corner is so responsive and the customisation process was seamless. Best handmade jewellery in the city!",
   },
 ];
 

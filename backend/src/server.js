@@ -23,7 +23,7 @@ app.use(morgan("dev"));
 // ── CORS — allow the frontend origin ──────────────────────────────────────
 const allowedOrigins = [
   process.env.FRONTEND_URL,
-  "https://Crochet and Knots.vercel.app",
+  "https://crocehtandknots.vercel.app",
   "https://locrochet.vercel.app",
   "http://localhost:3000",
   "http://localhost:8080",

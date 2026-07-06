@@ -30,7 +30,7 @@ export function Gallery() {
               </h2>
             </div>
             <motion.a
-              href="https://www.instagram.com/neocrochetstudio/"
+              href="https://www.instagram.com/_lo_crochet/"
               target="_blank"
               rel="noreferrer"
               className="flex items-center gap-2 text-sm font-semibold text-terra hover:underline"
@@ -38,7 +38,7 @@ export function Gallery() {
               transition={{ type: "spring", stiffness: 400 }}
             >
               <Instagram size={16} />
-              @neocrochetstudio →
+              @_lo_crochet →
             </motion.a>
           </div>
         </Reveal>
@@ -120,7 +120,7 @@ export function Gallery() {
         <Reveal delay={0.15}>
           <div className="mt-10 text-center">
             <motion.a
-              href="https://www.instagram.com/neocrochetstudio/"
+              href="https://www.instagram.com/_lo_crochet/"
               target="_blank"
               rel="noreferrer"
               className="btn-ghost inline-flex"

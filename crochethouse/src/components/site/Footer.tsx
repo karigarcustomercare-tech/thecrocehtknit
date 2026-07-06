@@ -2,8 +2,8 @@ import { Instagram, Mail, Heart, ArrowUp, Phone, ShoppingBag } from "lucide-reac
 import { motion } from "framer-motion";
 import { toast } from "sonner";
 
-const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783329563/neo-removebg-preview_m2mwij.png";
-const INSTA = "https://www.instagram.com/neocrochetstudio/";
+const LOGO = "https://res.cloudinary.com/drvug594q/image/upload/v1783331595/lo-removebg-preview_mfexrl.png";
+const INSTA = "https://www.instagram.com/_lo_crochet/";
 
 const colLeft = [
   { href: "#story",     label: "Our Story" },
@@ -41,16 +41,16 @@ export function Footer() {
             whileHover={{ scale: 1.03 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <img src={LOGO} alt="The NEO Crochet Studio" className="h-28 w-28 object-contain" />
+            <img src={LOGO} alt="The Lo Crochet" className="h-28 w-28 object-contain" />
             <div className="text-center md:text-left leading-tight">
               <div className="font-display text-xl font-semibold group-hover:text-rose transition-colors">
-                NEO Crochet Studio
+                Lo Crochet
               </div>
               <div className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">
                 Crochet & Beaded Jewellery · Pan India 
               </div>
               <div className="text-[9px] text-muted-foreground mt-0.5">
-                by NEO Crochet Studio 
+                by Lo Crochet 
               </div>
             </div>
           </motion.a>
@@ -83,7 +83,7 @@ export function Footer() {
                 <Phone size={14} /> +91 87796 32721
               </a>
               <a href="mailto:thebeadbaskets@gmail.com" className="flex items-center gap-2 hover:text-rose transition-colors">
-                <Mail size={14} />neocrochetstudio@gmail.com
+                <Mail size={14} />_lo_crochet@gmail.com
               </a>
             </div>
             <form
@@ -118,7 +118,7 @@ export function Footer() {
             <Phone size={13} /> +91 87796 32721
           </a>
           <a href="mailto:thebeadbaskets@gmail.com" className="flex items-center gap-2 hover:text-rose transition-colors">
-            <Mail size={13} /> neocrochetstudio@gmail.com
+            <Mail size={13} /> _lo_crochet@gmail.com
           </a>
         </div>
 
@@ -143,7 +143,7 @@ export function Footer() {
 
         {/* Bottom bar */}
         <div className="border-t border-border/40 pt-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
-          <div>© {new Date().getFullYear()} The NEO Crochet Studio by NEO Crochet Studio. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} The Lo Crochet by Lo Crochet. All rights reserved.</div>
           <motion.div className="flex items-center gap-1" whileHover={{ scale: 1.04 }}>
             Made with{" "}
             <motion.span

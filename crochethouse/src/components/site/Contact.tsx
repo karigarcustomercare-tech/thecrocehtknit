@@ -14,7 +14,7 @@ export function Contact() {
     setSending(true);
     setTimeout(() => {
       setSending(false);
-      toast.success("Message sent! NEO Crochet Studio will be in touch on WhatsApp soon 💌");
+      toast.success("Message sent! Lo Crochet will be in touch on WhatsApp soon 💌");
       (e.target as HTMLFormElement).reset();
     }, 900);
   };
@@ -123,7 +123,7 @@ export function Contact() {
               {/* Social quick links */}
               <div className="grid grid-cols-2 gap-3">
                 {[
-                  { icon: Instagram,     href: "https://www.instagram.com/neocrochetstudio/", label: "Instagram", sub: "@neocrochetstudio" },
+                  { icon: Instagram,     href: "https://www.instagram.com/_lo_crochet/", label: "Instagram", sub: "@_lo_crochet" },
                   { icon: MessageCircle, href: WA, label: "WhatsApp", sub: "Fastest replies" },
                 ].map((s) => (
                   <motion.a
